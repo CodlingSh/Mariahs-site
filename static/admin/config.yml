@@ -1,7 +1,19 @@
+site_url: https://mariahest.netlify.app # MAke sure to change this for production
+display_url: https://mariahest.netlify.app
+logo:
+  src: https://mariahest.netlify.app/logo.svg
+  show_in_header: true
 backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
-media_folder: static/img
+  commit_messages:
+    create: Create {{collection}} “{{slug}}”
+    update: Update {{collection}} “{{slug}}”
+    delete: Delete {{collection}} “{{slug}}”
+    uploadMedia: Upload “{{path}}”
+    deleteMedia: Delete “{{path}}”
+    openAuthoring: '{{message}}'
+media_folder: static/images/
 public_folder: /img
 collections:
   - name: 'blog'
@@ -13,6 +25,18 @@ collections:
       preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'about'
+    label: 'About'
+    folder: 'content/about'
+    create: false
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor: 
+      preview: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'strig' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
