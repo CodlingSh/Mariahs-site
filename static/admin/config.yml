@@ -39,5 +39,5 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-    media_folder: ''          # save images right next to the Markdown file
-    public_folder: ''         # use the exact same folder for public path
+    #media_folder: ''          # save images right next to the Markdown file
+    #public_folder: ''         # use the exact same folder for public path
