@@ -1,6 +1,6 @@
-{{ with resources.Get "fonts/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf" }}
+{{ with resources.Get "fonts/Montserrat-VariableFont_wght.ttf" }}
 @font-face {
-  font-family: 'NunitoSans';
+  font-family: 'customFont';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -8,9 +8,9 @@
 }  
 {{ end }}
 
-{{ with resources.Get "fonts/NunitoSans-Italic-VariableFont_YTLC,opsz,wdth,wght.ttf" }}
+{{ with resources.Get "fonts/Montserrat-Italic-VariableFont_wght.ttf" }}
 @font-face {
-  font-family: 'NunitoSans';
+  font-family: 'customFont';
   font-style: italic;
   font-weight: 400;
   font-display: swap;
