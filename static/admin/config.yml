@@ -29,7 +29,7 @@ collections:
           - { label: "Enabled", name: "enable", widget: "boolean" }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Featured Image", name: "image", widget: "object" }
-          - { label: "Action Text", name: "text", widget: "string", required: true }
+          - { label: "Action Text", name: "text", widget: "markdown", required: true }
           - label: "Button"
             name: "button"
             widget: "object"
