@@ -22,7 +22,7 @@ collections:
     editor:
       preview: false
     files:
-      - file: "data/cta.yaml"
+      - file: "data/home/cta.yaml"
         label: "Call to Action"
         name: "call_to_action"
         fields:
