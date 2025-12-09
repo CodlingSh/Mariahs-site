@@ -28,7 +28,7 @@ collections:
         fields:
           - { label: "Enabled", name: "enable", widget: "boolean" }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Featured Image", name: "image", widget: "object" }
+          - { label: "Featured Image", name: "image", widget: "image" }
           - { label: "Action Text", name: "text", widget: "markdown", required: true }
           - label: "Button"
             name: "button"
@@ -60,6 +60,6 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-      - { label: 'Image', name: 'image', widget: 'object', required: false }
+      - { label: 'Image', name: 'image', widget: 'image', required: false }
     media_folder: ''
     public_folder: ''
