@@ -16,6 +16,27 @@ backend:
 media_folder: static/images/
 public_folder: /img
 collections:
+  - name: "home"
+    label: "Home Page"
+    create: false
+    editor:
+      preview: false
+    files:
+      - file: "data/cta.yaml"
+        label: "Call to Action"
+        name: "call_to_action"
+        fields:
+          - { label: "Enabled", name: "enable", widget: "boolean" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Featured Image", name: "image", widget: "object" }
+          - { label: "Action Text", name: "text", widget: "string", required: true }
+          - label: "Button"
+            name: "button"
+            widget: "object"
+            fields:
+              - { label: "Button Text", name: "label", widget: "string" }
+              - { label: "Button Link", name: "link", widget: "string" }
+     
   - name: 'blog'
     label: 'Blog'
     folder: 'content/blog'
@@ -39,9 +60,6 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-      - { label: 'Cover Image', name: 'cover', widget: 'object', fields: [
-          { label: 'Image', name: 'image', required: false, widget: 'image' }
-        ]
-      }
-    media_folder: ''          # save images right next to the Markdown file
-    public_folder: ''         # use the exact same folder for public path
+      - { label: 'Image', name: 'image', widget: 'object', required: false }
+    media_folder: ''
+    public_folder: ''
