@@ -6,6 +6,7 @@ draft: false
 description: Text for the about page
 cover:
   image: l1zqfa.md.png
+image: frygar_avatar.png
 ---
 This was edited with Decap CMS. If done right, this should now show up on the website.\
 \
