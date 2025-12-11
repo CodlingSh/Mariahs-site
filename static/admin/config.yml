@@ -28,7 +28,7 @@ collections:
         fields:
           - { label: "Enabled", name: "enable", widget: "boolean" }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Featured Image", name: "image", widget: "image" }
+          - { label: "Featured Image", name: "image", widget: "image", required: false }
           - { label: "Action Text", name: "text", widget: "markdown", required: true }
           - label: "Button"
             name: "button"
