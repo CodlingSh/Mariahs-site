@@ -31,7 +31,7 @@ collections:
           - { label: "Smaller Text", name: "text", widget: "markdown" }
           - label: "Buttons"
             name: "buttons"
-            widget: "object"
+            widget: "list"
             fields:
               - { label: "Button Text", name: "label", widget: "string" }
               - { label: "Button Link", name: "link", widget: "string" }
