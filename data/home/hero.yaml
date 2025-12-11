@@ -1,13 +1,13 @@
 enable: true
-
-title: "Technology Made **Simple**, **Safe**, and **Stress-Free**"
-text: "We offer patient, one-on-one support that builds confidence, strengthens digital skills, and empowers every age to stay safe online."
-
+title: Skincare made **natural**, **nourished**, and **stress-free**.
+text: I provide patient, one-on-one care that nurtures confidence, supports
+  healthy skin, and helps you feel your absolute best.
 buttons:
-  - label: "How we work"
+  - label: How we work
     link: "#"
-
-  - label: "Book Appointment"
+  - label: Book Appointment
     link: ""
-
-image: "images/logo.png"
+image: images/logo.png
+button:
+  label: TEST
+  link: www.sheldonc.ca
