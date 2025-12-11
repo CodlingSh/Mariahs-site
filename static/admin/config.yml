@@ -35,8 +35,6 @@ collections:
             fields:
               - { label: "Button Text", name: "label", widget: "string" }
               - { label: "Button Link", name: "link", widget: "string" }
-              - { label: "Button Text", name: "label", widget: "string" }
-              - { label: "Button Link", name: "link", widget: "string" }
       - file: "data/home/cta.yaml"
         label: "Call to Action"
         name: "call_to_action"
