@@ -27,8 +27,8 @@ collections:
         name: "hero_section"
         fields:
           - { label: "Enabled", name: "enable", widget: "boolean" }
-          - { label: "Header Text", name: "title", widget: "string" }
-          - { label: "Smaller Text", name: "text", widget: "string" }
+          - { label: "Header Text", name: "title", widget: "markdown" }
+          - { label: "Smaller Text", name: "text", widget: "markdown" }
           - label: "Buttons"
             name: "button"
             widget: "object"
