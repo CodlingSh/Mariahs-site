@@ -30,7 +30,7 @@ collections:
           - { label: "Header Text", name: "title", widget: "markdown" }
           - { label: "Smaller Text", name: "text", widget: "markdown" }
           - label: "Buttons"
-            name: "button"
+            name: "buttons"
             widget: "object"
             fields:
               - { label: "Button Text", name: "label", widget: "string" }
