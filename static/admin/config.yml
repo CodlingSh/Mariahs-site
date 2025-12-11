@@ -22,6 +22,21 @@ collections:
     editor:
       preview: false
     files:
+      - file: "data/home/hero.yaml"
+        label: "Hero Section"
+        name: "hero_section"
+        fields:
+          - { label: "Enabled", name: "enable", widget: "boolean" }
+          - { label: "Header Text", name: "title", widget: "string" }
+          - { label: "Smaller Text", name: "text", widget: "string" }
+          - label: "Buttons"
+            name: "button"
+            widget: "object"
+            fields:
+              - { label: "Button Text", name: "label", widget: "string" }
+              - { label: "Button Link", name: "link", widget: "string" }
+              - { label: "Button Text", name: "label", widget: "string" }
+              - { label: "Button Link", name: "link", widget: "string" }
       - file: "data/home/cta.yaml"
         label: "Call to Action"
         name: "call_to_action"
