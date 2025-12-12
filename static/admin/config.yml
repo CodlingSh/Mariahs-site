@@ -31,8 +31,9 @@ collections:
           - { label: "Smaller Text", name: "text", widget: "markdown" }
           - label: "Buttons"
             name: "buttons"
-            create: false
             widget: "list"
+            min: 2
+            max: 2
             fields:
               - { label: "Button Text", name: "label", widget: "string" }
               - { label: "Button Link", name: "link", widget: "string" }
@@ -64,7 +65,8 @@ collections:
           - label: "Other Testimonies"
             name: "items"
             widget: "list"
-            create: false
+            min: 3
+            max: 3
             fields:
               - { label: "Text", name: "text", widget: "text" }
               - { label: "Client", name: "client", widget: "string" }
