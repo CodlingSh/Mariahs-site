@@ -60,7 +60,7 @@ collections:
             fields:
               - { label: "Image", name: "image", widget: "image" }
               - { label: "Text", name: "text", widget: "string" }
-              - { label: "Client", name: "text", widget: "string" }
+              - { label: "Client", name: "client", widget: "string" }
           - label: "Other Testimonies"
             name: "items"
             widget: "object"
