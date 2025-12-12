@@ -32,8 +32,8 @@ collections:
           - label: "Buttons"
             name: "buttons"
             widget: "list"
-            min: 2
-            max: 2
+            allow_add: false
+            allow_delete: false
             fields:
               - { label: "Button Text", name: "label", widget: "string" }
               - { label: "Button Link", name: "link", widget: "string" }
@@ -65,8 +65,8 @@ collections:
           - label: "Other Testimonies"
             name: "items"
             widget: "list"
-            min: 3
-            max: 3
+            allow_add: false
+            allow_delete: false
             fields:
               - { label: "Text", name: "text", widget: "text" }
               - { label: "Client", name: "client", widget: "string" }
