@@ -1,6 +1,5 @@
-+++
-title = 'Our Services'
-description = "Experience unparalleled technological advancement with our bespoke solutions. Schedule your consultation today to explore a world where cutting-edge innovations meet meticulous craftsmanship."
-type = "services"
-price = 45
-+++
+---
+title: 'Our Services'
+description: "We offer a range of professional esthetic services—custom facials, skincare treatments, and one-on-one consultations—designed to enhance and maintain healthy skin. Schedule your consultation today to get started."
+type: "services"
+---
