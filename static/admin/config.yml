@@ -56,17 +56,16 @@ collections:
           - { label: "Enabled", name: "enable", widget: "boolean" }
           - label: "Featured Testimony"
             name: "featured"
-            widget: "object"
+            widget: "list"
             fields:
-              - { label: "Image", name: "image", widget: "image" }
-              - { label: "Text", name: "text", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
               - { label: "Client", name: "client", widget: "string" }
           - label: "Other Testimonies"
             name: "items"
             widget: "object"
             fields:
-              - { label: "Text", name: "text", widget: "string" }
-              - { label: "Client", name: "client", widget: "text" }
+              - { label: "Text", name: "text", widget: "text" }
+              - { label: "Client", name: "client", widget: "string" }
      
   - name: 'blog'
     label: 'Blog'
