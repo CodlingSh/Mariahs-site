@@ -49,6 +49,24 @@ collections:
             fields:
               - { label: "Button Text", name: "label", widget: "string" }
               - { label: "Button Link", name: "link", widget: "string" }
+      - file: "data/home/testimonials.yaml"
+        label: "Testimonials"
+        name: "testimonials"
+        fields: 
+          - { label: "Enabled", name: "enable", widget: "boolean" }
+          - label: "Featured Testimony"
+            name: "featured"
+            widget: "object"
+            fields:
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Text", name: "text", widget: "string" }
+              - { label: "Client", name: "text", widget: "string" }
+          - label: "Other Testimonies"
+            name: "items"
+            widget: "object"
+            fields:
+              - { label: "Text", name: "text", widget: "string" }
+              - { label: "Client", name: "client", widget: "text" }
      
   - name: 'blog'
     label: 'Blog'
