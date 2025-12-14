@@ -1,13 +1,14 @@
 enable: true
 title: About Us
-image: ""
+image: /img/headshot.jpeg
 text: >-
-  At *REDACTED*, we are driven by a shared passion to waste peoples time. We are
-  useless when it comes to tech and need to bother our supervisor at our day job
-  for hours on end.
+  At Beauty By Mariah, my passion is helping clients feel confident, cared for,
+  and truly seen. I provide personalized esthetic services designed around your
+  unique skin needs, taking the time to listen, educate, and guide you every
+  step of the way.
 
 
-  Our mission is to provide patient, personalized support that simplifies the digital world, while also educating people on how to protect themselves from online scams. Through trust, empathy, and clear communication, we’re creating a safe space for learning and digital growth—one person at a time.
+  My mission is to create a calm, welcoming space where results meet relaxation—built on trust, empathy, and clear communication. Through thoughtful treatments and ongoing education, I aim to support healthy skin and lasting self-confidence, one client at a time.
 button:
   label: Learn More
   link: www.sheldonc.ca
