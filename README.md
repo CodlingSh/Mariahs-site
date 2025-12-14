@@ -1,1 +1,1 @@
-A website for a coworker of mine. Made using Hugo and Tailwind.
+A website for a local esthetician. Made using Hugo and Tailwind.
