@@ -23,8 +23,8 @@ params:
   colors:
     bg: "#F4F5EF"          # Primary background (green/cream)
     primary: "#161618"     # Primary foreground / accent purple
-    secondary: "#998AA6"   # Secondary accent (soft mauve)
-    tertiary: "#A8AF89"
+    secondary: "#A8AF89"   # Secondary accent (soft mauve)
+    tertiary: "#998AA6"
 # params:
 #   colors:
 #     bg: "#F4F5EF"
