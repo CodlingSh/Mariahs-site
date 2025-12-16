@@ -13,8 +13,6 @@
             <div class="aspect-video">
               {{ with .Params.image }}
                 {{ partial "utilities/image" (dict "src" .) }}
-              {{ else }}
-                {{ partial "utilities/image" (dict "src" "images/services-web-development.png") }}
               {{ end }}
             </div>
             <div class="p-6">
