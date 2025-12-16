@@ -73,7 +73,7 @@ collections:
      
   - name: 'blog'
     label: 'Blog'
-    folder: 'content/blog'
+    folder: 'content/post'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
@@ -104,8 +104,9 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: "Draft", name: "draft", widget: "boolean", default: true, required: true }
+      - { label: "Draft", name: "draft", widget: "boolean", default: true }
       - { label: "Position", name: "weight", widget: "number", default: 9000 }
       - { label: "Name of Service", name: "title", widget: "string", required: true }
-      - { label: "Description", name: "description", widget: "markdown", required: true }
+      - { label: "Brief Description", name: "description", widget: "markdown", required: true }
+      - { label: "Description", name: "body", widget: "markdown", required: true }
       - { label: "Price ID", name: "priceID", widget: "string", required: true }
