@@ -97,3 +97,13 @@ collections:
       - { label: 'Image', name: 'image', widget: 'image', required: false }
     media_folder: ''
     public_folder: ''
+  - name: "services"
+    label: "Services"
+    folder: "content/services"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "Name of Service", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Price ID", name: "priceID", widget: "string" }
