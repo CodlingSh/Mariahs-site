@@ -103,8 +103,8 @@ collections:
       preview: false
     files:
       - file: "content/contact.md"
-        label: "Contact Message"
-        name: "contact message"
+        label: "Message"
+        name: "message"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
