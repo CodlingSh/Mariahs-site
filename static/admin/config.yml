@@ -106,6 +106,5 @@ collections:
       - { label: "Draft", name: "draft", widget: "boolean", default: true }
       - { label: "Position", name: "weight", widget: "number", default: 9000 }
       - { label: "Name of Service", name: "title", widget: "string", required: true }
-      - { label: 'Body', name: 'body', widget: 'markdown', required: true }
-      - { label: "Description", name: "body", widget: "markdown", required: true }
+      - { label: "Body", name: "body", widget: "markdown", required: true }
       - { label: "Price ID", name: "priceID", widget: "string", required: true }
