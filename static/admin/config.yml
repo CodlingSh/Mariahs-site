@@ -98,7 +98,7 @@ collections:
     public_folder: ''
   - name: "contact"
     label: "Contact"
-    file: "content/contact.md"
+    folder: "content/contact.md"
     editor:
       preview: false
     fields:
