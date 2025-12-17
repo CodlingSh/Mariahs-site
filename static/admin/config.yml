@@ -104,7 +104,7 @@ collections:
     files:
       - file: "content/contact.md"
         label: "Contact Message"
-        name: "contact"
+        name: "contact message"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
