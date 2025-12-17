@@ -98,7 +98,15 @@ collections:
     public_folder: ''
   - name: "contact"
     label: "Contact"
-    folder: "content/contact.md"
+    editor:
+      preview: false
+    files:
+      - file: "content/contact.md"
+        label: "Contact"
+        name: "contact"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
     editor:
       preview: false
     fields:
