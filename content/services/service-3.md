@@ -3,7 +3,7 @@ draft: false
 weight: 3
 title: Service 3
 description: This is the 3rd service
-image: ""
+image: "a"
 priceID: "12345678"
 ---
 This is the third test service! This should show up in the markdown
