@@ -14,11 +14,11 @@
                 <h2 class="mb-4 text-2xl">{{ .Title }}</h2>
                 {{ $img := .Params.image}}
                 {{ if $img }}
-                  {{ if hasprefix $img "http" }}
+                  {{ if hasPrefix $img "http" }}
                     <img src="{{ $img }}" alt="{ .Title }">
                   {{ end }}
                 {{ else }}
-                  {{ with .resources.GetMatch .Params.image }}
+                  {{ with .resources.GetMatch $img }}
                     <img src="{{ .RelPermalink }}" alt="{ .Title }">
                   {{ end }}
                 {{ end }}
