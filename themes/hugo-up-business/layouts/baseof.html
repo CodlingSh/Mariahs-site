@@ -102,7 +102,7 @@
       <script src="{{ $main.RelPermalink }}" defer></script>
     {{ end }}
   </head>
-  <body class="bg-(--color-background) lg:text-lg">
+  <body class="bg-background lg:text-lg">
     <div class="flex min-h-screen flex-col">
       {{ partial "shared/header" . }}
       <div class="grow">{{ block "main" . }}{{ end }}</div>
