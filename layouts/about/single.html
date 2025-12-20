@@ -6,10 +6,10 @@
       {{ end }}
       <div class="flex flex-col items-start xl:flex-row-reverse">
         {{ with .Resources.GetMatch .Params.image }}
-          <img src="{{ .RelPermalink }}" alt="{{ $.Title }}" class="mx-auto w-full max-w-xl mb-16 rounded-4xl border-8 border-(--color-primary)" width="{{ .Width }}" height="{{ .Height }}">
+          <img src="{{ .RelPermalink }}" alt="{{ $.Title }}" class="mx-auto w-full max-w-xl mb-16 rounded-4xl border-8 border-primary" width="{{ .Width }}" height="{{ .Height }}">
         {{ end }}
         {{ with .Content }}
-          <div class="prose prose-lg mx-auto max-w-[37rem]">
+          <div class="prose prose-lg mx-auto max-w-148">
             {{ . }}
           </div>
         {{ end }}
