@@ -14,9 +14,9 @@
                 {{ $img := .Params.image}}
                 {{ if $img }}
                   {{ if hasPrefix $img "http" }}
-                    <div class="h-72 w-full border-8 mb-6 xl:mb-12 bg-center bg-cover" style="background-image: url('{{ $img }}')"></div>
+                    <div class="h-72 w-full border-4 border-primary rounded-lg mb-6 bg-center bg-cover xl:mb-12" style="background-image: url('{{ $img }}')"></div>
                   {{ else }}
-                    <div class="h-72 w-full border-8 mb-6 xl:mb-12 bg-center bg-cover" style="background-image: url('{{ relURL $img }}')"></div>
+                    <div class="h-72 w-full border-4 border-primary rounded-lg mb-6 bg-center bg-cover xl:mb-12" style="background-image: url('{{ relURL $img }}')"></div>
                   {{ end }}
                 {{ end }}
                 <h2 class="mb-4 text-2xl">{{ .Title }}</h2>
