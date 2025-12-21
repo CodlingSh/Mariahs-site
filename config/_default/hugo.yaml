@@ -25,9 +25,3 @@ params:
     primary: "#161618"
     secondary: "#A8AF89"
     tertiary: "#998AA6"
-# params:
-#   colors:
-#     bg: "#F4F5EF"
-#     primary: "#19242F"
-#     secondary: "#C9A3BC"
-#     tertiary: "#E3D6E2"
