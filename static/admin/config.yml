@@ -14,7 +14,7 @@ backend:
     deleteMedia: Delete “{{path}}”
     openAuthoring: '{{message}}'
 media_folder: static/images/
-public_folder: static/images/
+public_folder: /images/
 collections:
   - name: "home"
     label: "Home Page"
