@@ -21,9 +21,9 @@ taxonomies:
 
 params:
   colors:
-    bg: "#F4F5EF"          # Primary background (green/cream)
-    primary: "#161618"     # Primary foreground / accent purple
-    secondary: "#A8AF89"   # Secondary accent (soft mauve)
+    bg: "#F4F5EF"
+    primary: "#161618"
+    secondary: "#A8AF89"
     tertiary: "#998AA6"
 # params:
 #   colors:
