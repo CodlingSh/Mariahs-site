@@ -2,8 +2,10 @@
 draft: false
 weight: 1
 title: Test Service 1
-description: This is a test service
 image: /images/konstantin-shmatov-oy8lfbcb8hq-unsplash.jpg
+description: >-
+  
+  Crafted for clarity and ease, this sample paragraph demonstrates balanced length, readable flow, and a neutral tone suitable for previews, cards, or SEO testing.
 priceID: "12345678"
 ---
 
