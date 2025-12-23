@@ -120,5 +120,6 @@ collections:
       - { label: "Position", name: "weight", widget: "number", default: 9000 }
       - { label: "Name of Service", name: "title", widget: "string", required: true }
       - { label: "Featured Image", name: "image", widget: "image", required: true }
-      - { label: "Body", name: "body", widget: "markdown", required: true }
+      - { label: "Service Description", name: "description", widget: markdown, maxLength: 160, required: true }
+      - { label: "Full Service Details", name: "body", widget: "markdown", required: true }
       - { label: "Price ID", name: "priceID", widget: "string", required: true }
