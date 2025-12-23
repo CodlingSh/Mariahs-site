@@ -1,7 +1,7 @@
 site_url: https://mariahest.netlify.app # MAke sure to change this for production
 display_url: https://mariahest.netlify.app
 logo:
-  src: https://mariahest.netlify.app/logo.svg
+  src: https://mariahest.netlify.app/images/logo.svg
   show_in_header: true
 backend:
   name: git-gateway
