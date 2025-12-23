@@ -2,8 +2,10 @@
 draft: false
 weight: 2
 title: Test Service 2
-description: This is the second service
-image: /images/headshot.jpeg
+image: https://thenailpro.ca/mt-content/uploads/2018/04/manicure-with-burgundy-gel-nail-polish.jpg
+description: >-
+  
+  This placeholder text is designed to feel natural and informative, helping you visualize how real content might appear without distracting meaning or context.
 priceID: "123456"
 ---
 

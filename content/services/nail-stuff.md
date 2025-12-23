@@ -3,6 +3,9 @@ draft: false
 weight: 3
 title: Nail Stuff
 image: /images/element5-digital-xf7o2w7qgp0-unsplash-1-.jpg
+description: >-
+  
+  Using this example to test layout spacing, typography, and responsiveness while maintaining a realistic character count for summaries or featured sections.
 priceID: "12345"
 ---
 
