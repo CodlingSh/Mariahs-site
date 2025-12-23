@@ -9,7 +9,7 @@
       <div class="grid gap-12 xl:grid-cols-3">
         {{ with site.GetPage "section" "services" }}
           {{ range .RegularPages }}
-            <div class="bg-tertiary rounded-4xl p-6 xl:p-12">
+            <div class="bg-tertiary/50 rounded-4xl p-6 xl:p-12">
               <div class="flex flex-col items-center h-full">
                 {{ $img := .Params.image}}
                 {{ if $img }}
